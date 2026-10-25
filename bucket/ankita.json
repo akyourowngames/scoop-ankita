@@ -1,0 +1,28 @@
+{
+    "version": "2.7.0",
+    "description": "Desktop AI workspace with teammates, browser and computer tools, MCP, skills, memory, schedules, and a CLI.",
+    "homepage": "https://ankita-sable.vercel.app",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/akyourowngames/A.N.K.I.T.A/releases/download/v2.7.0/Ankita-2.7.0-portable-x64.exe#/Ankita.exe",
+            "hash": "fd49a3cc327949903a8a6ae5af22bf210aa41e6d9ffe2cb25ae24214d3dacab1"
+        }
+    },
+    "shortcuts": [
+        [
+            "Ankita.exe",
+            "Ankita"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/akyourowngames/A.N.K.I.T.A"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/akyourowngames/A.N.K.I.T.A/releases/download/v$version/Ankita-$version-portable-x64.exe#/Ankita.exe"
+            }
+        }
+    }
+}
